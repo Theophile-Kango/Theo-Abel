@@ -1,20 +1,41 @@
-.container{
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+/*----- navigation bar :-moz-ui-invalid
+*/
+nav {
     display: flex;
 }
 
-h1{
-    text-align: center;
+nav ul {
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+video{
+    justify-self: center;
+    margin-top: 2em;
 }
 #email{
-    display: block;
+   padding: 1em;
     outline: none;
-    text-align: center;
     width: 400px;
     height: 30px;
     margin-bottom: 20px;
 }
 #submit{
     background: yellow;
+    border: none;
+    padding: .9em;
+    cursor: pointer;
+    border-radius: 10%;
 }
 #email:hover{
     border: 1px solid blue;
