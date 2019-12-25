@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+#email{
+    display: block;
+    outline: none;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#submit{
+    background: yellow;
+}
+#email:hover{
+    border: 1px solid blue;
+}
+.content{
+    position: relative;
+    top: 20px;
+}
